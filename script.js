@@ -1,4 +1,4 @@
-export function handleClick(event) {
+function handleClick(event) {
   if (event.target.id === "down") {
     document.getElementById("screen_3").scrollIntoView(false);
   }

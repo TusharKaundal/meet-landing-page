@@ -199,12 +199,12 @@ nav {
   text-align: center;
   & .article_description_header {
     gap: pxToRem(16px);
-    & h3 {
+    & h1:nth-of-type(1) {
       @extend .text-preset-3;
       color: var(--cyan-600);
       text-transform: uppercase;
     }
-    & h1 {
+    & h1:nth-of-type(2) {
       @extend .text-preset-2;
       color: var(--slate-900);
     }

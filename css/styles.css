@@ -19,14 +19,14 @@
   letter-spacing: 0rem;
 }
 
-.text-preset-2, .footer_description div, .article_description .article_description_header h1 {
+.text-preset-2, .footer_description div, .article_description .article_description_header h1:nth-of-type(2) {
   font-weight: var(--font-weight-black);
   font-size: 2.5rem;
   line-height: 110%;
   letter-spacing: 0rem;
 }
 
-.text-preset-3, .article_description .article_description_header h3 {
+.text-preset-3, .article_description .article_description_header h1:nth-of-type(1) {
   font-weight: var(--font-weight-black);
   font-size: 1rem;
   line-height: 110%;
@@ -196,11 +196,11 @@ nav {
 .article_description .article_description_header {
   gap: 1rem;
 }
-.article_description .article_description_header h3 {
+.article_description .article_description_header h1:nth-of-type(1) {
   color: var(--cyan-600);
   text-transform: uppercase;
 }
-.article_description .article_description_header h1 {
+.article_description .article_description_header h1:nth-of-type(2) {
   color: var(--slate-900);
 }
 .article_description p {

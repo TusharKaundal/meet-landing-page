@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <title>Meet Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Meet landing page</title>
+    <script defer type="module" src="./script.mjs"></script>
+  </head>
+  <body class="scroll-container">
+    <div role="main" id="screen_1" class="scroll-page">
+      <nav><img src="./assets/logo.svg" alt="meet-logo" /></nav>
+      <section class="hero">
+        <div class="left-img desktop-img" role="img">
+          <img
+            src="./assets/desktop/image-hero-left.png"
+            alt="people-on-left"
+          />
+        </div>
+        <img
+          class="mobile-img"
+          src="./assets/tablet/image-hero.png"
+          alt="Group of Smiling People"
+        />
+        <div class="hero_section">
+          <h1 class="hero_section_heading">Group Chat for Everyone</h1>
+          <p class="hero_section_description">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <div class="buttons-container">
+            <button id="down">Download <span>v1.3</span></button>
+            <button id="info">What is it?</button>
+          </div>
+        </div>
+        <div class="right-img desktop-img" role="img">
+          <img
+            src="/assets/desktop/image-hero-right.png"
+            alt="people-on-right"
+          />
+        </div>
+      </section>
+    </div>
+    <div role="article" id="screen_2" class="scroll-page">
+      <div class="page_number_1">
+        <svg
+          width="56"
+          height="136"
+          viewBox="0 0 56 136"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect x="27.5" width="1" height="80" fill="#D1D1DF" />
+          <rect
+            x="0.5"
+            y="80.5"
+            width="55"
+            height="55"
+            rx="27.5"
+            fill="#FAFAFA"
+          />
+          <rect
+            x="0.5"
+            y="80.5"
+            width="55"
+            height="55"
+            rx="27.5"
+            stroke="#D1D1DF"
+          />
+          <path
+            d="M24.552 114.176C23.5387 114.176 22.648 113.936 21.88 113.456C21.1227 112.976 20.5307 112.304 20.104 111.44C19.688 110.565 19.48 109.552 19.48 108.4C19.48 107.237 19.688 106.224 20.104 105.36C20.5307 104.496 21.1227 103.824 21.88 103.344C22.648 102.864 23.5387 102.624 24.552 102.624C25.5653 102.624 26.4507 102.864 27.208 103.344C27.976 103.824 28.568 104.496 28.984 105.36C29.4107 106.224 29.624 107.237 29.624 108.4C29.624 109.552 29.4107 110.565 28.984 111.44C28.568 112.304 27.976 112.976 27.208 113.456C26.4507 113.936 25.5653 114.176 24.552 114.176ZM24.552 111.936C25.0747 111.936 25.5227 111.797 25.896 111.52C26.28 111.232 26.5733 110.821 26.776 110.288C26.9893 109.755 27.096 109.125 27.096 108.4C27.096 107.664 26.9893 107.035 26.776 106.512C26.5733 105.979 26.28 105.573 25.896 105.296C25.5227 105.008 25.0747 104.864 24.552 104.864C24.0293 104.864 23.576 105.008 23.192 105.296C22.8187 105.573 22.5253 105.979 22.312 106.512C22.1093 107.035 22.008 107.664 22.008 108.4C22.008 109.125 22.1093 109.755 22.312 110.288C22.5253 110.821 22.8187 111.232 23.192 111.52C23.576 111.797 24.0293 111.936 24.552 111.936ZM32.7174 114V105.424L30.3974 106.352V104.112L33.6774 102.8H35.3094V114H32.7174Z"
+            fill="#87879D"
+          />
+        </svg>
+      </div>
+      <div class="article_grid">
+        <img src="assets/desktop/image-man-texting.jpg" alt="man-texting" />
+        <img
+          src="assets/desktop/image-men-in-meeting.jpg"
+          alt="men-in-meeting"
+        />
+        <img
+          src="assets/desktop/image-woman-in-videocall.jpg"
+          alt="woman-in-videocall"
+        />
+        <img
+          src="assets/desktop/image-women-videochatting.jpg"
+          alt="women-videochatting"
+        />
+      </div>
+      <div class="article_description">
+        <div class="article_description_header">
+          <h3>built for modern use</h3>
+          <h1>Smarter meetings, all in one place</h1>
+        </div>
+        <p>
+          Send messages, share files, show your screen, and record your meetings
+          — all in one workspace. Control who can join with invite-only team
+          access, data encryption, and data export.
+        </p>
+      </div>
+    </div>
+    <footer role="footer" class="scroll-page" id="screen_3">
+      <div class="page_number_2">
+        <div class="bar"></div>
+        <div class="circle"><p>02</p></div>
+      </div>
+      <div class="footer_description">
+        <div>Experience more together</div>
+        <p>
+          Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.
+        </p>
+        <div>
+          <button class="footer_button">Download <span>v1.3</span></button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
